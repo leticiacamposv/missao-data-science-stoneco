@@ -18,7 +18,7 @@ def correct_hour_format(x):
     return hour
 
 
-def data_preparation(df):
+def data_preparation(df, test=False):
     """
     Esta função aplica correções de dtypes, limpeza de nulos e outros tratamentos de acordo com os dados da tabela de CBK, além da criação da coluna transaction_timestamp
     
@@ -47,8 +47,9 @@ def data_preparation(df):
     df['Valor'] = df['Valor'].astype('float')
 
     # --------- Coluna target ------------------------------------------------------------------------
-    df = df.dropna(subset=['CBK'])
-    df['CBK'] = df['CBK'].map({'Não': 0, 'Sim': 1}).fillna(df['CBK'])
+    if not test:
+        df = df.dropna(subset=['CBK'])
+        df['CBK'] = df['CBK'].map({'Não': 0, 'Sim': 1}).fillna(df['CBK'])
 
     return df
     
