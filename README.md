@@ -11,7 +11,7 @@
         Contém os dados crus sem classificação preditos pelo modelo (aba2, no caso)
 - models
     Contém artefatos do modelo treinado
-- notebooks **!!!!! Aqui está todo o desenvolvimento do desafio passo a passo, os demais são entregas extras**
+- notebooks <u>**!!!!! Aqui está todo o desenvolvimento do desafio passo a passo, os demais são entregas extras**</u>
     Contém os notebooks de toda a fase de teste e modelagem, etapa de desenvolvimento
 - reports 
     Contém os resultados da EDA
