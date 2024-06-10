@@ -1,0 +1,2 @@
+Accuracy,Precision,Recall,F1-Score,AUC-ROC,KS,opt_prob_cutoff
+86.14,23.4,83.81,36.59,85.03,70.07,0.031235865277453433

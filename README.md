@@ -4,12 +4,14 @@
     - raw
         Contem os dados como vêm direto da fonte. Neste caso, o dataset 'Missão_Stone_-_Dados_de_trx_(3).xslx
     - processed
-        Contem os dados como vêm direto da fonte. Neste caso, o dataset 'Missão_Stone_-_Dados_de_trx_(3).xslx
+        Contem dados raw pré-processados para análise dos dados
     - train_test
-        Conforme o nome, contêm os dados usados no treino e teste do modelo
+        Contém os dados inteiriços pré-processados e a parcela de treino, teste e validação usados na modelagem
+    - predicted
+        Contém os dados crus sem classificação preditos pelo modelo (aba2, no caso)
 - models
     Contém artefatos do modelo treinado
-- notebooks 
+- notebooks **!!!!! Aqui está todo o desenvolvimento do desafio passo a passo, os demais são entregas extras**
     Contém os notebooks de toda a fase de teste e modelagem, etapa de desenvolvimento
 - reports 
     Contém os resultados da EDA
@@ -53,4 +55,7 @@ Entendimento da missão:
 
 #### Final:
 - Propor regras de negócio que melhorem a operação deste cliente, fazendo uma análise numérica do impacto que suas regras teriam no negócio e apresentando os resultados de forma estruturada.
+
+# Notas da autora:
+Uma abordagem a se tratar para além do desafio: Treinar algoritmo de anomalias para comparação com o modelo treinado do Lightgbm como um Isolation Forest
 
