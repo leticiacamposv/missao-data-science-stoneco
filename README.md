@@ -1,33 +1,20 @@
 # Sobre o repositório
 ## Estrutura de pastas e seus conteúdos
-- data
-    - raw
-        Contem os dados como vêm direto da fonte. Neste caso, o dataset 'Missão_Stone_-_Dados_de_trx_(3).xslx
-    - processed
-        Contem dados raw pré-processados para análise dos dados
-    - train_test
-        Contém os dados inteiriços pré-processados e a parcela de treino, teste e validação usados na modelagem
-    - predicted
-        Contém os dados crus sem classificação preditos pelo modelo (aba2, no caso)
-- models
-    Contém artefatos do modelo treinado
-- notebooks <u>**!!!!! Aqui está todo o desenvolvimento do desafio passo a passo, os demais são entregas extras**</u>
-    Contém os notebooks de toda a fase de teste e modelagem, etapa de desenvolvimento
-- reports 
-    Contém os resultados da EDA
-- src
-    Contém todos os códigos para automação dos processos
-    - data
-        Contém script de criação do dataset (limpeza, tratamento de nulos, etc)
-    - features
-        Contém script para adição de novas features/feature engineering
-    - models
-        Contém scripts de treino e de predição do modelo
-    - visualization
-        Contém scripts para construção de gráficos ou quaisquer elementos para dataviz
-- documents
-    Contém todos os arquivos de documentação
-
+📂 data
+ ┣ 📂 raw -> Contem os dados como vêm direto da fonte. Neste caso, o dataset 'Missão_Stone_-_Dados_de_trx_(3).xslx
+ ┣ 📂 processed -> Contem dados raw pré-processados para análise dos dados
+ ┣ 📂 train_test -> Contém os dados inteiriços pré-processados e a parcela de treino, teste e validação usados na modelagem 
+ ┣ 📂 predicted -> Contém os dados crus sem classificação preditos pelo modelo (aba2, no caso)     
+📂 models -> Contém artefatos do modelo treinado
+📂 notebooks -> <u>Aqui está todo o desenvolvimento do desafio passo a passo, os demais são entregas extras</u>. Contém os notebooks de toda a fase de teste e modelagem, etapa de desenvolvimento
+📂 reports -> Contém os resultados da EDA
+📂 src -> Contém todos os códigos para automação dos processos
+ ┣ 📂 data -> Contém script de criação do dataset (limpeza, tratamento de nulos, etc)
+ ┣ 📂 features -> Contém script para adição de novas features/feature engineering
+ ┣ 📂 models -> Contém scripts de treino e de predição do modelo
+ ┣ 📂 visualization -> Contém scripts para construção de gráficos ou quaisquer elementos para dataviz
+📂 documents -> Para conter todos os arquivos de documentação
+    
 ## Autora:
 Leticia Campos Valente | [LinkedIn](https://www.linkedin.com/in/leticia-campos-valente/)
 
